@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb896121-d60d-45b9-a08e-a3bbf022a0f4" name="Changes" comment="Started writing tests for Kreis.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/devgrill/Kegelstumpf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/devgrill/Kegelstumpf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/devgrill/Kreis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/devgrill/Kreis.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I1tkJF28Fnk6DTIs8bid2XanlN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "discord-project"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="me.devgrill" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb896121-d60d-45b9-a08e-a3bbf022a0f4" name="Changes" comment="" />
+      <created>1669361062671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669361062671</updated>
+      <workItem from="1669361064461" duration="845000" />
+      <workItem from="1669361952526" duration="675000" />
+      <workItem from="1669362661567" duration="4322000" />
+      <workItem from="1670569879151" duration="4659000" />
+    </task>
+    <task id="LOCAL-00001" summary="added classes">
+      <created>1669361776766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669361776766</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished Kreis class">
+      <created>1669363601537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669363601537</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished Kegelstumpf class">
+      <created>1669364676146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669364676146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changes in output">
+      <created>1669966336231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669966336231</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added class diagram">
+      <created>1669969705749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669969705749</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Started writing tests for Kreis.java">
+      <created>1670573349513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670573349513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added classes" />
+    <MESSAGE value="finished Kreis class" />
+    <MESSAGE value="finished Kegelstumpf class" />
+    <MESSAGE value="changes in output" />
+    <MESSAGE value="Added class diagram" />
+    <MESSAGE value="Started writing tests for Kreis.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started writing tests for Kreis.java" />
+  </component>
+</project>

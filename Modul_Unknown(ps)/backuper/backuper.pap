@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="7C1F4B29FBAAFD13">
+  <PROJECT FORMAT="1.00" NAME="backuper" AUTHOR="cyril.kurmann" CREATED="2022.05.31 09:58:00" MODIFIED="2022.05.31 10:07:44">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Backuper" CREATED="2022.05.31 09:58:03" MODIFIED="2022.05.31 10:07:22">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="14">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Backuper]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Start GUI]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Add labels and text-fields]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="56">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[logpath changed?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="15">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Folder to backup location changed?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="73">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="9">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="59">
+                <TEXT><![CDATA[Backupfolderlocation changed?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="86">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="11">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="81">
+                <TEXT><![CDATA[Backupbutton pressed?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="12">
+              <FIGURE SUBTYPE="PapModule" FORMAT="1.00" ID="71">
+                <TEXT><![CDATA[backup]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="13">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[change logpath]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[change folder to backup]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="79">
+                <TEXT><![CDATA[Change backupfolder]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="91">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="53">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="68">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="57" FROM="56" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="15" TO="18" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="8" TO="12" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="12" TO="13" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="15" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="13" TO="15" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="18" TO="22" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="22" TO="23" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="75" FROM="23" TO="73" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="67" FROM="81" TO="68" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="70" FROM="68" TO="53" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="18" TO="73" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="56" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="58" FROM="53" TO="56" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="74" FROM="73" TO="59" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="38" FROM="59" TO="86" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="72" FROM="71" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="82" FROM="81" TO="71" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="78" FROM="59" TO="79" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="93" FROM="91" TO="86" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="94" FROM="86" TO="81" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="90" FROM="79" TO="91" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="backup" CREATED="2022.05.31 10:03:03" MODIFIED="2022.05.31 10:07:44">
+        <LAYOUT FORMAT="1.00" COLUMNS="1" ROWS="6">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[backup]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Copy folder]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Paste folder to backup folder]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Log into the logfile]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
